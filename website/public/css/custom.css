@@ -1,0 +1,1149 @@
+/*common css*/
+body {
+background-color: #000000;
+font-family: 'univia_proregular';
+}
+h1, h2, h3, h4, h5 {
+font-family: 'univia_probold';
+text-transform: uppercase;
+}
+.my-40
+{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.container
+{
+max-width: 100%;
+width: 67%;
+}
+.red-color
+{
+color: #D1363E
+}
+.blue-color
+{
+color:#5E9ACE;
+}
+.gray-color
+{
+color: #A9A8AF;
+}
+/*btn*/
+.yellow-outline-btn
+{
+background-color: transparent;
+border: 2px solid #FEAA00;
+color: #FEAA00;
+font-size: 23px;
+}
+.yellow-outline-btn:hover
+{
+background-color: #FEAA00;
+border: 2px solid #FEAA00;
+color: #ffffff;
+font-size: 14px;
+}
+.yellow-btn
+{
+background-color: #FEAA00;
+border: 2px solid #FEAA00;
+color: #ffffff;
+font-size: 14px;
+}
+.yellow-btn:hover
+{
+background-color: transparent;
+border: 2px solid #FEAA00;
+color: #FEAA00;
+}
+.btn-danger
+{
+	font-size: 14px;
+}
+.bar-btn
+{
+background: transparent;
+color: #ffffff;
+font-size: 39px;
+padding: 10px 20px 0px;
+}
+#sidebar.active .bar-btn
+{
+padding: 0px 10px;
+}
+button:focus
+{
+outline: none;
+}
+.btn.focus, .btn:focus, .custom-file-input:focus~.custom-file-label
+{
+box-shadow: none;
+border-color: /*inherit*/;
+}
+.head
+{
+margin-top: 30px;
+margin-bottom: 29px;
+font-size: 30px;
+font-family: 'univia_probold';;
+}
+.head  p
+{
+font-family: 'UniviaPro-Medium';
+font-size: 20px;
+margin-bottom: 10px;
+}
+/*.checkbox*/
+.custom-control-label::before
+{
+width: 25px;
+height:25px;
+border: 1px solid #A9A8AF;
+background: transparent;
+}
+.custom-control-label{
+margin-bottom: .5rem;
+margin-top: 1px;
+margin-left: 11px;
+}
+/*main body css*/
+.body-bg
+{
+/*background-image: url('../img/GEO_3DTERRAIN2.png'); 
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+background-color: #000000;*/
+/*font-family: 'UniviaPro-Regular 400';*/
+/*margin: 50px 0px;*/
+}
+.body-bg.login
+{
+height: 88vh;
+display: grid;
+align-items: center;
+}
+.overlay-content li
+{
+list-style: none;
+}
+/*login*/
+.loginPage .secondCol
+{
+height: 700px;
+}
+#login{display: none;}
+/*logout css*/
+.logout-btn
+{
+border: 2px solid #A9A8AF;
+border-radius: 6px;
+padding: 8px 35px;
+margin: 0px 0px 0px 19px;
+color: #1E1F20;
+font-size: 18px;
+}
+.logout-btn:hover
+{
+	background: #ffaa00;
+	border-color: #ffaa00;
+}
+/*progress bar*/
+.progress.second .progress-bar {
+background: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent), linear-gradient(to right, #CF3837, #FFAA00);
+background-repeat: repeat, no-repeat;
+background-size: 1rem 1rem, cover;
+}
+.progress {
+overflow: auto;
+height: 23px;
+border-radius: 25px;
+background-image: linear-gradient(to bottom, #141414, #343434);
+box-shadow: 0 1px 1px #666;
+}
+.progress-bar {
+height: 17px;
+margin: 3px;
+border-radius: 25px;
+}
+/*token progress*/
+.progess-text span
+{
+font-size: 12px;
+font-weight: 600;
+}
+/*offer*/
+.offer
+{
+background-color: #E7E6EF;
+padding: 31px 20px;
+border-radius: 0px 0px 8px 8px;
+}
+.offer h5
+{
+font-family: 'UniviaPro-Medium';
+font-size: 24px;
+}
+.sessionTable .table thead{
+background-color: #E7E6EF;
+}
+/* stake page Css */
+.stack-input
+{
+width: 50%;
+}
+.tokenContent{
+color: #1E1F20;
+font-size: 20px;
+line-height: 27px;
+font-weight: 400;
+border-radius: 8px;
+padding: 38px 27px;
+}
+.alert.tokenalert{
+background-color: rgb(72, 194, 204, 20%);
+color: #5E9ACE;
+border: 1px solid #5E9ACE;
+}
+.alert.tokenalert i, .alert.tokenalert p
+{color: #5E9ACE;}
+.btn.stakeButton{
+color: #ffffff;
+background-color: #6B98C9;
+text-transform: uppercase;
+padding: 9px 39px;
+}
+.sessionTable tbody tr th, .sessionTable tbody tr td
+{
+font-size: 20px;
+}
+.sessionTable tbody tr td{
+text-align: center;
+}
+.alert.receivealert{
+background-color: rgb(204, 72, 72, 20%);
+color: #D1363E;
+border: 2px solid #D1363E;
+padding: 30px;
+font-size: 20px;
+}
+.profileStatus{
+border: 2px solid #E7E6EF;
+padding: 30px;
+border-radius: 8px;
+}
+.profileStatus button{
+padding: 10px 30px;
+}
+.profileStatus .col-4 p{
+color: #1E1F20;
+padding-top: 5px;
+}
+.verificationContent{
+border: 2px solid #E7E6EF;
+padding: 30px;
+border-radius: 8px;
+}
+.verificationContent .yellow-btn, .settingForm .yellow-btn, .passwordSection .yellow-btn
+{
+font-size: 18px;
+padding: 9px 55px;
+}
+/*/refferal page Css/*/
+.referralAlert p
+{
+color: #5E9ACE;
+}
+.referralAlert{
+border: 2px solid #5E9ACE;
+background-color: rgb(72, 194, 204, 20%);
+color: #5E9ACE;
+}
+.referralContent{
+padding: 30px;
+}
+.referralContent img.img-fluid{
+width: 30px;
+}
+.referralCol-2 button{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.referralTableData{
+padding-top: 26px;
+}
+.referralContent .row .align-middle{
+border: 2px solid #E7E6EE;
+border-radius: 8px;
+text-align: center;
+margin-bottom: 20px;
+}
+/*purchase-section*/
+.currency p
+{
+font-size: 16px;
+font-family: 'univia_proregular';
+margin-top: 10px;
+}
+.community h5
+{
+font-family: 'UniviaPro-Medium';
+}
+/*, .sale-progress h5, .verificationContent h3, */*/
+.referralCol-2
+/*, .settingForm h3*/
+{
+font-family: 'univia_proregular';
+font-size: 20px;
+color: #1E1F20;
+}
+.community
+{
+padding: 34px 26px;
+}
+.Community .date-time h5
+{
+color: #feaa00;
+font-size: 47px;
+margin-bottom: 0px;
+}
+.Community .date-time span
+{
+font-size: 12px;
+color: #A9A8AF;
+font-family: 'UniviaPro-Medium';
+
+}
+.Community .date-time .date-time-box
+{
+/*margin: 0px 7px;*/
+border: 2px solid #E7E6EF;
+border-radius: 8px;
+line-height: 0.5;
+    padding: 14px 0px 30px;
+}
+.Community .date-time
+{
+margin-bottom: 20px;
+}
+.balance, .sale-progress, .community, .purchaseRate, .tokenContent, .sessionTable, .referralContent, .referralTable, .settingForm
+{
+border: 2px solid #E7E6EF;
+border-radius: 8px;
+margin-top: 24px!important;
+}
+.balance h3
+{
+font-size: 47px!important;
+font-family: 'univia_proregular';
+}
+.Community h5{font-size: 30px;}
+.purchase-section
+/*.purchase-section h3, h3.stakeHeading, h3.transactionsHeading, h3.sessionHeading, .profile-setting h3*/
+{
+font-family: 'univia_proregular';
+}
+.purchasealert-1{
+border: 2px solid #5E9ACE;
+background-color: rgb(72, 194, 204, 20%);
+}
+.purchasealert-1 p, .purchasealert-1 i{
+color: #5E9ACE;
+}
+.purchasealert-2{
+border: 2px solid #FFAA00;
+background-color: rgb(255, 196, 0, 20%);
+}
+.purchasealert-2 p, .purchasealert-2 i{
+color: #FFAA00;
+word-break: break-word;
+}
+.purchasealert-3{
+border: 2px solid #D1363E;
+background-color: rgb(204, 72, 72, 20%);
+}
+.purchasealert-3 p, .purchasealert-3 i{
+color: #D1363E;
+}
+.row.purchaseCurrencyType .col-2 img{
+width: 44px;
+height: 44px;
+}
+.row.purchaseCurrencyType {
+padding: 10px 0px;
+}
+.purchaseCurrencyType span{
+width: 80px;
+text-transform: uppercase;
+}
+.purchase-section .input-group-text, .purchase-section .input-group-text.dropdown-toggle, .tokenContent .input-group-text
+{
+width: 100px;
+padding: .375rem 1.5rem;
+background-color: #E7E6EF;
+border: 1px solid #E7E6EF;
+border-radius: 8px;
+font-size: 18px;
+font-family: 'UniviaPro-Medium';
+}
+.purchase-section button.input-group-text.dropdown-toggle, .custom-file-label::after
+{
+border-radius: 0px 8px 8px 0px;
+}
+.custom-file-label::after
+{
+width: 100px;
+padding: 6px 14px;
+background-color: #E7E6EF;
+border: 1px solid #E7E6EF;
+/*border-radius: 8px;*/
+font-size: 18px;
+height: calc(2.5rem + 2px);
+}
+.custom-file-label
+{
+font-size: 18px;
+padding: 6px 14px;
+height: calc(2.5rem + 2px);
+}
+.purchase-section, .purchase-section .form-control
+{
+font-size: 18px;
+}
+.purchase-section .form-control,  .tokenContent .form-control, .custom-file-label
+{
+border: 1px solid #E7E6EF;
+border-radius: 8px;
+}
+.purchasePayButton{	
+background: #5E9ACE;
+border: 1px solid #5E9ACE;
+color: #ffffff;
+font-size: 18px;
+}
+/*/setting Page Css/*/
+.settingAlert{
+padding: 30px;
+border: 2px solid #D1363E;
+border-radius: 8px;
+}
+.settingAlert p, .settingAlert i{
+color: #D1363E;
+}
+.authentication{
+border: 1px solid #E7E6EF;
+border-radius: 8px;
+margin-top: 10px;
+/*padding: 30px;*/
+font-size: 20px;
+color: #1E1F20;
+}
+.switch {
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+margin-bottom: 0px;
+}
+.switch input { 
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+.switch input:checked + .slider {
+background-color: #feaa00;
+}
+.switch input:focus + .slider {
+box-shadow: 0 0 1px #feaa00;
+}
+.switch input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+.slider.round:before {
+border-radius: 50%;
+}
+.authentication h3{
+padding-bottom: 17px;
+}
+.authentication h3, p{
+/*color: #1E1F20;*/
+/*font-size: 20px;  */
+/*margin-bottom: 0px;	*/
+}
+.authentication .btn-secondary{    padding: 6px 55px;font-size: 20px;} 
+.authentication .switchButton{
+background-color: #E7E6EF;
+padding: 24px;
+}
+.passwordSection{
+border: 1px solid #E7E6EF;
+border-radius: 8px;
+padding: 30px;
+margin-top: 20px;
+font-size: 20px;
+color: #1E1F20;
+}
+.passwordSection h3{
+font-size: 20px;
+color: #1E1F20;
+padding-bottom: 20px;
+}
+.dropright:hover .dropdown-menu{display: block;}
+.dropright .dropdown-toggle::after{display: none}
+.dropright .dropdown-menu{position: absolute;
+/*transform: translate3d(152px, 22px, 0px);*/
+top: 0px;
+left: 96px;
+will-change: transform;
+background-color: #001C29;
+}
+#sidebar.active ul li .dropright .dropdown-menu
+{
+left: 233px;
+}
+#sidebar.active ul li .dropright .dropdown-menu .dropdown-item span	
+{display: block!important}
+#sidebar.active ul li .dropright .dropdown-menu .dropdown-item
+{
+/*padding: 8px 10px;*/
+}
+#sidebar li.active .dropright  a.dropdown-toggle 
+{
+color:#FFAA00 ;
+}
+#sidebar li.active .dropright .dropdown-toggle  svg
+{
+fill:#FFAA00;
+}
+.dropright .dropdown-menu
+{
+width: 397px;
+}
+.dropright .dropdown-item, .dropright .dropdown-menu h4
+{
+color: #ffffff;
+padding: 20px 30px;
+}
+/*badge*/
+.badge
+{
+position: absolute;
+margin-left: 25px!important;
+font-size: 12px!important;
+margin-top: -30px;
+}
+/*referralTable */
+.referralTable thead tr
+{
+background: #E7E6EF;
+}
+.referralTable .table td, .referralTable .table th
+{
+padding: 1.5rem;
+}
+/*profile-setting*/
+.profile-setting
+{
+}
+.settingForm
+{    padding: 30px;}
+.settingForm label
+{
+font-size: 20px;
+margin-bottom: 15px;
+}
+.settingForm .form-control
+{
+border: 1px solid #E7E6EE;
+font-size: 20px;
+color: #A9A8AF;
+border-radius: 8px;
+}
+.form-group {
+margin-bottom: 22px;
+}
+.settingForm .form-control::-webkit-input-placeholder { /* Edge */
+color: #A9A8AF;
+}
+.settingForm .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #A9A8AF;
+}
+.settingForm .form-control::placeholder {
+color: #A9A8AF;
+}
+.stack-text{display: none;}
+/*/login page/*/
+.loginPage {
+border-radius: 8px;
+}
+.loginPage .firstCol{
+background-color: #001C29;
+display: grid;
+border-radius: 8px 0px 0px 8px;
+padding-left: 41px;
+background: url('../img/Mask Group 28.png');
+background-repeat: no-repeat;
+background-size: cover;
+/*background-position: center;*/
+}
+.loginPage .firstCol .loginContent{
+display: inline-block;
+align-self: center;
+}
+.loginPage .firstCol h3{
+font-size: 30px;
+padding-top: 50px;
+padding-bottom: 10px;
+color: #E7E6EF;
+}
+.loginPage .firstCol p{
+color: #A9A8AF;
+font-size: 20px;
+}
+.loginPage .secondCol {
+padding: 34px 60px;
+background-color: #FFFFFF;
+border-radius: 0px 8px 8px 0px;
+}
+.loginPage .secondCol .form-group {
+margin-bottom: 1rem;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.loginPage .secondCol .custom-control.custom-checkbox {
+margin: 5px 0px;
+}
+.loginPage .secondCol button{
+font-size: 20px;
+/*margin-top: 20px;
+margin-bottom: 50px;
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;*/
+}
+.loginPage .secondCol p{
+color: #1E1F20;
+font-size: 20px;
+}
+.loginPage .secondCol p span{
+color: #5E9ACE;
+font-size: 20px;
+}
+.inputs
+{
+margin-bottom: 20px;
+}
+.stack-input
+{
+display: flex;
+}
+/*mobile menu*/
+.bottom-text a, .bottom-text span
+{
+font-size: 16px!important;
+color: #55666E!important;
+}
+.navbar
+{
+background: #001c29;
+display: none;
+position: absolute;
+z-index: 1030;
+}
+.navbar
+{
+padding: 18px 20px;
+}
+.navbar .badge {
+margin-left: 21px!important;
+margin-top: -18px;
+}	
+.navbar .dropdown-toggle::after
+{
+display: none;
+}
+.navbar-toggler
+{
+float: right;
+}
+.navbar a, a:not([href]):not([tabindex]), .navbar-dark .navbar-nav .nav-link
+{
+color: #ffffff;
+}
+.navbar .navbar-nav a
+{
+display: flex;
+align-items: center;
+padding:17.5px 15px;
+}
+.navbar .navbar-nav
+{
+padding-top: 30px;
+}
+.navbar .navbar-nav a svg
+{
+width: 37px;
+height: 37px;
+}
+.navbar .navbar-nav a span
+{
+margin-left: 30px;
+display: inline-block;
+}
+.navbar .dropdown-menu
+{
+background: #001c29;
+padding-left: 31px;
+color: #A9A8AF;
+}
+.navbar .dropdown-menu a
+{
+color: #A9A8AF;
+}
+.navbar .dropdown-menu a svg
+{
+fill: #A9A8AF;
+width: 30px;
+height: 30px;	
+}
+.navbar-brand
+{
+margin-right: 0px;
+}
+.navbar-brand img
+{
+width: 75%;
+}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav li.active a
+{
+color: #feaa00!important;
+}
+.navbar .navbar-nav li.active a svg
+{
+fill: #feaa00;
+}
+.navbar-dark .navbar-toggler
+{
+border: none;
+}
+.logout-text, .btns
+{
+text-align: right;
+}
+.btns .btn
+{
+margin: 0px 5px;
+}
+.inputs .input-box, .date-selection 
+{
+display: flex;
+align-items: center;
+}
+.input-box span
+{
+display: contents;
+}
+button, .btn
+{
+text-transform: uppercase;
+/*padding: 7.5px 12px;*/
+font-size: 14px;
+}
+.form-control
+{
+	font-size: unset;
+	/*height: calc(3.25rem + 8px);*/
+}
+.close
+{
+	font-size: 21px;	
+}
+span {
+display: initial;
+}
+.text-box
+{
+padding: 16px;
+}
+.community h6 span:last-child
+{
+margin-left: 24px!important;
+}
+.currency .col-lg
+{
+margin-bottom: 36px;
+}
+.currency .col-lg:last-child
+{
+margin-bottom: 0px;
+}
+.purchasealert-1 i, .purchasealert-2 i, .purchasealert-3 i, .alert.tokenalert i, .referralAlert i
+{
+font-size: 22px;
+}
+.Community .date-time h5
+{
+font-family: 'UniviaPro-Regular';
+}
+.btns .btn, .profileStatus p, .btn, .settingForm h3, .authentication h3, .table thead th, .loginPage .firstCol p, .referralTableData p:first-child, .referralContent p:first-child
+{
+font-family: 'UniviaPro-Medium';
+}
+.settingForm h3, .authentication h3, .passwordSection h3
+{
+text-transform: capitalize;
+}
+.balance
+{
+	    padding: 26px 42px;
+}
+.stack-input.input-box span, .stack-input-div {
+    display: flex;
+}
+.date-selection 
+{
+	margin-top: 15px;
+}
+#date_of_birth select.form-control:not([size]):not([multiple])
+{
+	height: 44px;
+       /*width: 145px;*/
+}
+/*@media*/
+@media (max-width: 1700px)
+{.container
+	{
+	    width: 83%;
+	}
+}
+@media (max-width: 1500px)
+{
+.container
+{
+width: 90%;
+}
+.stack-input
+{
+width: 75%;
+}
+}
+@media (max-width: 1024px)
+{
+.container
+{
+width: 95%;
+}
+.loginPage .firstCol
+{
+border-radius: 8px;
+padding: 34px 24px;
+}
+.loginPage .secondCol
+{
+height: 100%;
+}
+}
+@media (max-width: 768px)
+{
+	.referralContent svg
+	{width: 30px; height: 30px;}
+	#date_of_birth select.form-control:not([size]):not([multiple])
+	{
+		/*width: auto!important;*/
+	}
+.stack-input-div
+{
+	display: block;
+}
+.loginPage .secondCol
+{
+padding: 50px 59px;
+}
+.sessionTable tbody tr th, .sessionTable tbody tr td
+{
+font-size: 16px;
+}
+.settingForm h3
+{
+font-size: 20px;
+text-transform: capitalize;
+margin-bottom: 36px!important;
+}
+.sessionTable 
+{
+}
+label
+{
+margin-bottom: 15px;
+}
+.settingForm {
+padding: 22px 24px;
+}
+.tokenContent, .profileStatus, .passwordSection
+{
+padding: 25px 24px;
+}
+.purchaseRate
+{
+padding: 28px 24px!important;
+}
+.inputs
+{
+margin-bottom: 0px;
+}
+.offer
+{
+padding: 38px 28px;
+}
+.text-box
+{
+padding: 34px 23px 43px!important;
+}
+.Community .date-time .date-time-box
+{
+padding: 23px 0px;
+line-height: 0.7;
+}
+.alert.receivealert
+{
+font-size: 16px;
+}
+.balance .col-lg
+{
+margin-bottom: 34px;
+}
+.balance
+{
+padding: 34px 22px!important;
+}
+.Community .date-time h5
+{
+margin-bottom: 0px;
+font-size: 37px!important;
+}
+.Community h5
+{
+margin-bottom: 20px;
+}
+.balance .col-lg:last-child, .balance .col-lg:nth-last-child(2)
+{
+margin-bottom: 0px;
+}
+.container {
+width: 100%;
+padding: 0px;
+}
+.head p
+{
+margin-bottom: 32px;
+}
+.head
+{
+margin-top: 6px;
+}
+.responcive-text
+{
+display: none;
+}
+/*.date-selection,*/
+.stack-text
+{
+display: block;
+}
+.date-selection select
+{
+margin: 12px 0px;
+}
+.my-40 {
+margin-top: 14px;
+margin-bottom: 40px;
+}
+.settingForm .form-control
+{
+font-size: 14px;
+}
+p, .settingForm label, .loginPage .secondCol p span{font-size: 16px!important;}
+.navbar
+{
+display: block;
+width: 100%;
+}
+#sidebar
+{display: none;}
+.body-bg
+{
+margin: 0px ;
+}
+#date_of_birth
+{
+width: -webkit-fill-available;
+display: block;
+}
+#content
+{
+margin-top: 77.7px;
+padding: 24px 35px;
+/*margin-bottom: 50px;*/
+/*border-radius: 0px;*/
+}
+.verificationContent
+{
+margin-bottom: 50px;
+}
+.logout-text
+{
+text-align: initial;
+display: flex;
+margin-top: 20px;
+}
+.inputs .input-box .dropdown-toggle::after
+{
+display: none;
+}
+h1, h5, h2, h3, h4
+{
+/*font-size: 20px!important;*/
+text-transform: uppercase;
+}
+.profileStatus button
+{
+margin-top: 20px;
+width: -webkit-fill-available;
+}
+.logout-text span
+{
+margin-top: 12px;
+}
+.balance .row .col
+{
+border-bottom: 1px solid #e7e6ef;
+margin: 15px 0px;
+}
+.balance .row .col:last-child
+{
+border-bottom: none;
+}
+.referralTable, .sessionTable 
+{
+overflow: scroll;
+}
+.stack-input
+{
+width: 100%;
+display: block;
+}
+.stack-input .input-group
+{
+margin: 10px 0px;
+}
+.btns
+{
+text-align: initial;
+margin-top: 20px;
+/*padding: 0px;*/
+}
+.btns span
+{
+width: 100%;
+display: flex;
+}
+.btns span .btn
+{
+color: #1E1F20;
+}
+.btns .btn
+{
+display: block;
+width: 100%;
+margin: 6px 3px;
+font-size: 14px;
+padding: 12.5px 15px;
+}
+.community h6
+{
+font-size: 18px;
+margin-bottom: 10px;
+}
+.referralContent {
+padding: 46px 27px;
+}
+.settingForm .yellow-btn, .authentication .btn-secondary, .passwordSection .yellow-btn, .verificationContent .yellow-btn
+{
+width: -webkit-fill-available;
+}
+}
+@media (max-width: 576px)
+{
+.btn.stakeButton
+{
+width: -webkit-fill-available;
+}
+.input-box span
+{
+display: flex;
+align-items: center;
+}
+.input-box span img
+{
+width: 34px;
+height: 34px;
+}
+.purchasePayButton
+{
+border-radius: 8px;
+width: 100%;
+}
+.inputs .input-box
+{
+display: block;
+margin-bottom: 30px;
+/*text-align: center;*/
+}
+.inputs .input-box .input-group
+{
+margin: 10px 0px;
+}
+.inputs .input-box .dropdown-toggle::after
+{
+bottom: 19px;
+right: 6%;
+display: none;
+}
+}
+@media (min-width: 1200px)
+{
+}
+@media (min-width: 992px){}
+@media (min-width: 768px)
+{
+}
+@media (min-width: 576px){}

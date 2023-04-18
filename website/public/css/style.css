@@ -1,0 +1,226 @@
+.bg-blue
+{
+    background: #001c29!important;
+}
+body
+{
+        background-color: #000000;
+    font-family: 'univia_proregular';
+        font-size: 14px;
+}
+.body-bg
+{
+background-image: url('../images/GEO_3DTERRAIN2.png'); 
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+background-color: #000000!important;
+/*font-family: 'UniviaPro-Regular 400';*/
+margin: 50px 0px;
+}
+
+.navbar-inverse {
+    background-color: #337ab7 !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff !important;
+}
+
+.gr-user-details{
+    padding: 50px 0;
+}
+.shadow-wrapper{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    padding: 30px;
+    border-radius: 10px;
+}
+.c-border {
+    border-top: 1px solid gainsboro;
+    margin: 15px 0;
+}
+/***********custom-img************/
+.custom-img-txt .img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+}
+.custom-img-txt .img img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    max-width: inherit;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.custom-img-txt .txt{
+    margin-left: 110px;
+    padding: 10px 0;
+}
+.custom-img-txt .txt p{
+    margin: 0 0 2px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.custom-img-txt .txt p i{
+    color: #337ab7;
+    width: 20px;
+}
+.instances .card
+{
+        border-radius: 8px;
+    background: #30a6df;
+    color: #ffffff;
+    box-shadow: 0px 2px 3px #9ca5af;
+        MARGIN-BOTTOM: 14PX;
+}
+/************custom-description**********/
+.custom-description{
+
+}
+.custom-description h2{
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.custom-description p{
+    margin: 0 0 2px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+}
+.custom-description p span{
+    color: #444444;
+    font-weight: 500;
+    max-width: 170px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.custom-description p span:after {
+    content: ":";
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1;
+}
+/* .custom-description .two-item {
+    margin: 0 -10px;
+}
+.custom-description .two-item p{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #adadad;
+}
+.custom-description .two-item p:last-child{
+    border: 0
+} */
+
+.form-inline input[name="search"] {
+    width: 100%;
+    max-width: 370px;
+}
+
+.add-image-box .img-wrapper {
+    padding: 0 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .add-image-box .img {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #efefef;
+    position: relative;
+    margin: 15px 0;
+    cursor: pointer;
+    width: 120px;
+    height: 90px;
+  }
+  .add-image-box .img-preview img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    max-width: inherit;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+  }
+
+  .navbar-top-links>li>a {
+    color: #fff !important;
+  }
+
+  .text-error{
+      color:red
+  }
+
+  .invalid-feedback{
+      color : red;
+  }
+
+  /* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 0;
+  width: 60px;
+  height: 60px;
+  margin: -76px 0 0 -76px;
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #feaa00;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  /*opacity:;*/
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  /*display: none;*/
+  /*text-align: center;*/
+}
+
+
